@@ -30,7 +30,7 @@ def convertPPTtoPDF(inputFileName, outputFileName):
         return True
     
     except:
-        print("Error converting file: " + filename)
+        print("Error converting file: " + inputFileName)
         return False
 
 
