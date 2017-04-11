@@ -8,7 +8,7 @@ import win32com.client
 FILENAME = "Understanding Git"
 
 def main():
-    dir_path = os.path.dirname(os.path.realpath(__file__)) + "\\"
+    dir_path = os.path.dirname(os.path.realpath(__file__)) + "\\..\\"
     success = convertPPTtoPDF(dir_path + FILENAME + ".pptx", dir_path + FILENAME + ".pdf")
 
     return success
