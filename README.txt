@@ -1,1 +1,0 @@
-This repository contains some useful information about git aimed at Champlain College students entering Senior Capstone, but may be useful for others as well!
